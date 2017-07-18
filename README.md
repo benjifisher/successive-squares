@@ -7,18 +7,17 @@ Compute successive squares to investigate primes that divide Fermat numbers.
 Fermat conjectured that all of the following numbers (now known as Fermat
 numbers) are prime:
 
-- `2^1 + 1 = 3`.
-- `2^2 + 1 = 5`.
-- `2^4 + 1 = 17`.
-- `2^8 + 1 = 257`.
-- `2^16 + 1 = 65537`.
+- `2^1 + 1 = 3`
+- `2^2 + 1 = 5`
+- `2^4 + 1 = 17`
+- `2^8 + 1 = 257`
+- `2^16 + 1 = 65537`
 - ...
-- `2^(2^n) + 1`.
+- `2^(2^n) + 1`
 
 Euler disproved this conjecture.
-In fact, it fails for the first "Fermat number" not explicitly listed above
-is composite:
-`2^32 + 1` is a multiple of 641.
+In fact, it fails for the first "Fermat number" not explicitly listed above:
+`2^32 + 1` is a multiple of `641`.
 
 ## The fifth Fermat number is not prime
 
